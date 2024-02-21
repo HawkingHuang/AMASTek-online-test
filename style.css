@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 128rem;
+  height: 80rem;
+  margin: 2rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.time,
+.accu {
+  text-align: right;
+}
+
+.temp,
+.refri,
+.micro-pre {
+  max-width: 30rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 1.4rem;
+  border-radius: 5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.main h3,
+.timer,
+.accu h3 {
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.time,
+.accu {
+  padding: 1.4rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 60em) {
+  .timer {
+    font-size: 1.6rem;
+  }
+}
